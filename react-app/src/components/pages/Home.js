@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="container-fluid">
+    <div className="container-fluid">
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna

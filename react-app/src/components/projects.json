@@ -4,13 +4,15 @@
         "name": "Conceptzoa",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
         "deployed": "https://www.conceptzoa.com/",
-        "gitHub": ""
+        "gitHub": "",
+        "details": "The first phase of the Conceptzoa project was to create the company's institutional website. At a later stage, the website evolved into an online store, as the company chose to start selling services through this channel as well."
     },
     {
         "id": 6,
         "name": "Wunand",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
         "deployed": "https://wunand.com/",
-        "gitHub": ""
+        "gitHub": "",
+        "details": "Online clothing and accessories store. The next step of the project is to develop the blog."
     }
 ]

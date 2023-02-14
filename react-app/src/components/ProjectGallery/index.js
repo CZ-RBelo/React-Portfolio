@@ -20,9 +20,10 @@ class ProjectGallery extends Component {
                         id={project.id}
                         key={project.id}
                         name={project.name}
-                        image={project.image}
-                        occupation={project.github}
-                        location={project.deployed}
+                        image={project.image}                        
+                        deployed={project.deployed}
+                        github={project.github}
+                        details={project.details}
                     />
                 ))
             }

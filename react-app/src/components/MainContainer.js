@@ -16,11 +16,12 @@ class MainContainer extends Component {
 
   render() {
     let Page = "";
-    switch (this.state.currentPage) {
+    // eslint-disable-next-line
+    switch (this.state.currentPage) {      
       case "Home": Page = <Home />; break;
       case "About": Page = <About />; break;
       case "ProjectGallery": Page = <ProjectGallery />; break;
-      case "Contact": Page = <Contact />; break;
+      case "Contact": Page = <Contact />; break;      
     }
     return (
       <div>
