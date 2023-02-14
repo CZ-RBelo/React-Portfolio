@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import ProjectGallery from "./pages/ProjectGallery";
+import ProjectGallery from "./ProjectGallery";
 import Contact from "./pages/Contact";
 
 class MainContainer extends Component {

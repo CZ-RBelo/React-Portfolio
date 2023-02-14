@@ -1,22 +1,58 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Contact() {
-  return (
-    <div class="container-fluid">
-      <h1>Contact Page</h1>
-      <p>
-      As a tech-savvy front-end web developer, I have always had a strong gravitational pull towards technology.
-With extensive experience in MS SQL and Oracle (T-SQL) database code development, now a Front Web
-Development Certificate at Trilogy Education Services from London, I am gaining much-needed experience in web
-development fundamentals while improving my skills in ES6 and Node.js, React State and Deployment, HTML5,
-CCS, Bootstrap and JavaScript, jQuery, and APIs (Server / Web / Third-Party).
-I am always striving to improve my skills and knowledge base. I consider communication and collaboration to be
-fundamental parts of teamwork.
-I intend to create and maintain websites, in addition to developing applications for iOS and Android.
-I seek to bring my attention to detail and technical skills to a business to grow and become a valuable asset
-      </p>
-    </div>
-  );
+class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      location: '',
+      message: '',
+      about: '',
+      subscribe: ''
+
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    //this.setState({ value: event.target.value });
+
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+
+
+  }
+
+  handleSubmit(event) {
+    alert('Thank you!');
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <div class="mb-3">
+      <form onSubmit={this.handleSubmit}>
+
+        
+          <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" value={this.state.name} onChange={this.handleChange} />
+          <input name="email" type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email" value={this.state.email} onChange={this.handleChange} />
+          <input name="location" type="text" class="form-control" id="exampleFormControlInput3" placeholder="Location" value={this.state.location} onChange={this.handleChange} />
+          <textarea name="message" class="form-control" id="exampleFormControlInput4" placeholder="Message" rows="3" value={this.state.message} onChange={this.handleChange} />
+       
+        <input type="submit" value="Submit" />
+
+      </form>
+      </div>
+    )
+  }
 }
 
 export default Contact;
