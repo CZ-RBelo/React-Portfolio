@@ -4,8 +4,8 @@ function NavTabs(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-      <a className="navbar-brand" href="#home" onClick={() => props.handlePageChange("Home")}>Rui Belo</a>
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <span className="navbar-brand mb-0 h1">Rui Belo</span >
+        <ul className="navbar-nav d-flex">
           <li className="nav-item">
             <a href="#home" onClick={() => props.handlePageChange("Home")} className="nav-link">
               Home

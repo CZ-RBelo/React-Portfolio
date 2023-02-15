@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./Home/Index";
+import About from "./About";
 import ProjectGallery from "./ProjectGallery";
-import Contact from "./pages/Contact";
+import Contact from "./Contact";
 
 class MainContainer extends Component {
   state = {
@@ -24,7 +24,7 @@ class MainContainer extends Component {
       case "Contact": Page = <Contact />; break;      
     }
     return (
-      <div>
+      <div className="container-fluid">
         <NavTabs
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
