@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard(props) {
     return (
-        <div className="container-fluid">
+        <div id="projectCard">
             <div className="card" style={{ width: "18rem" }}>
                 <img src={props.image} className="card-img-top" alt={props.name + "Project Image"} />
                 <div className="card-body">

@@ -35,7 +35,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="mb-3">
+      <div id="contact" className="mb-3 container-fluid">
         <form onSubmit={this.handleSubmit}>
 
           <input name="name" type="text" className="form-control" id="exampleFormControlInput1" placeholder="Name" value={this.state.name} onChange={this.handleChange} />

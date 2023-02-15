@@ -3,7 +3,7 @@ import image from "../images/RBelo-CEO@Conceptzoa.png";
 
 function About() {
   return (
-    <div className="container-fluid">
+    <div id="about" className="container-fluid">
         <div className="card mb-3" >
           <div className="row g-0">
             <div className="col-md-4">

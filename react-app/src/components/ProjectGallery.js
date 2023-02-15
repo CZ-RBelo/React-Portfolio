@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ProjectCard from "../ProjectCard";
-import ProjectWrapper from "../ProjectWrapper";
-import projects from "../projects.json";
+import ProjectCard from "./ProjectCard/ProjectCard";
+import ProjectWrapper from "./ProjectWrapper/ProjectWrapper";
+import projects from "./projects.json";
 
 class ProjectGallery extends Component {
     // Setting this.state.projects to the projects json array
