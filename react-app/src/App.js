@@ -2,7 +2,7 @@ import React from "react";
 
 
 // Import containers
-import MainContainer from "../src/components/MainContainer";
+import MainContainer from "../src/components/MainContainer/MainContainer";
 
 
 function App() {

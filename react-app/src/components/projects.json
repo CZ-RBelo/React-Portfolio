@@ -1,18 +1,57 @@
 [
     {
+        "id": 1,
+        "name": "Weather Dashboard",
+        "video": "https://user-images.githubusercontent.com/91415469/210137964-0889ef4f-f280-4cae-834d-6cb76446f63f.mp4",
+        "image": "",
+        "deployed": "https://cz-rbelo.github.io/WeatherDashboard/",
+        "github": "https://github.com/CZ-RBelo/WeatherDashboard",
+        "details": "A web page that aims to help travellers see the weather forecast and local news, for various cities, so they can plan a trip accordingly. The panel allows the user to search for any city. After choosing the travel destination, “cards” are presented with the weather forecast for the current day and for the following five days, in addition to local news. All searches are stored in the history and can therefore be revisited."
+    },
+    {
+        "id": 2,
+        "name": "Work Day Scheduler",
+        "video": "https://user-images.githubusercontent.com/91415469/209678999-6b3fc184-699e-431a-b1d7-2232180b1167.mp4",
+        "image": "",
+        "deployed": "https://cz-rbelo.github.io/WorkDayScheduler/",
+        "github": "https://github.com/CZ-RBelo/WorkDayScheduler",
+        "details": "A simple calendar app that allows the user to save events for each working hour of the day (9 am / 5 pm). This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. The app displays the current day at the top of the calendar when a user opens the planner. Presents time blocks for standard business hours (9 am / 5 pm) when the user scrolls down. Each time block is coloured based on: past (grey), present (red), and future (green) when the time block is viewed and persist events between refreshes of a page. The app allows the user to enter and save in local storage an event when they click a time block."
+    },
+    {
+        "id": 3,
+        "name": "Password Generator",
+        "video": "",
+        "image": "https://github.com/CZ-RBelo/PasswordGenerator/raw/main/images/RB-PasswordGenerator-webpage-mockup.jpg",
+        "deployed": "https://cz-rbelo.github.io/PasswordGenerator/",
+        "github": "https://github.com/CZ-RBelo/PasswordGenerator",
+        "details": "This is an application that can be used to generate a random password based on criteria selected by the user, will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. The Password Generator helps the user to create a strong password. It can include special characters, numeric, lowercase, and uppercase."
+    },
+    {
+        "id": 4,
+        "name": "Quiz Multiple-Choice Questions",
+        "video": "",
+        "image": "https://github.com/CZ-RBelo/QuizMultipleChoice/raw/main/assets/images/RB-Mock-Up-QuizMultipleChoice.jpg",
+        "deployed": "https://cz-rbelo.github.io/QuizMultipleChoice/",
+        "github": "https://github.com/CZ-RBelo/QuizMultipleChoice",
+        "details": "This is an application that intends to simulate a timed Quiz with multiple-choice questions. When the game ends, it displays the highest scores and gives the user the ability to save their initials and their score. The application has a mobile-responsive user interface that will run in the browser and will present dynamically updated HTML and CSS through JavaScript code. Whenever the user answers correctly, a sound is played, and whenever the answer is wrong, a different sound is played as well. The high score's table stores just the top 10 results. When a user gets a result higher than any other one in the table, the system automatically removes the lowest result and inserts the new one. The code is dynamic, so more questions can be added, and even the number of choices for each question can be different from question to question."
+    },
+    {
         "id": 5,
-        "name": "Conceptzoa",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "deployed": "https://www.conceptzoa.com/",
-        "gitHub": "",
-        "details": "The first phase of the Conceptzoa project was to create the company's institutional website. At a later stage, the website evolved into an online store, as the company chose to start selling services through this channel as well."
+        "name": "The Horiseon Website",
+        "video": "",
+        "image": "https://github.com/CZ-RBelo/Edx-Bootcamp-Module-01-HTML-CSS-Git-Challenge/raw/main/Assets/Mock-up-Horiseon-web-page.png",
+        "deployed": "https://cz-rbelo.github.io/Edx-Bootcamp-Module-01-HTML-CSS-Git-Challenge/",
+        "github": "https://github.com/CZ-RBelo/Edx-Bootcamp-Module-01-HTML-CSS-Git-Challenge",
+        "details": "This repository is part of the challenge proposed in the first module of the Web Front End Developer Bootcamp. The project aims to rectify the code base of a marketing agency's website so that it follows accessibility standards and is optimized for search engines (SEO)."
     },
     {
         "id": 6,
-        "name": "Wunand",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "deployed": "https://wunand.com/",
-        "gitHub": "",
-        "details": "Online clothing and accessories store. The next step of the project is to develop the blog."
+        "name": "Bootstrap Portfolio",
+        "video": "",
+        "image": "https://github.com/CZ-RBelo/Bootstrap-Portfolio/raw/main/images/RB-BootsrapPortfolio-webpage-mockup.png",
+        "deployed": "https://cz-rbelo.github.io/Bootstrap-Portfolio/",
+        "github": "https://github.com/CZ-RBelo/Bootstrap-Portfolio",
+        "details": "An organized and effective way to show the projects that Rui Belo has been involved in the Web Front End Developer Bootcamp."
     }
 ]
+
