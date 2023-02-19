@@ -1,13 +1,22 @@
-#imageCard { 
-  width:250px;
+
+#imageCard {
+  width: 250px;  
+}
+
+#about {
+  background-color: #f8f8f8;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 575.98px) {
 
-  #imageCard { 
-    width:200px;
-    padding-bottom:20px;
+  #about {
+    padding-bottom: 150px;
+  }
+
+  #imageCard {
+    width: 200px;
+    padding-bottom: 20px;
   }
 
 }

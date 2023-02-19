@@ -1,0 +1,10 @@
+#header{
+    background-color: #f8f8f8;
+    max-width: 1040px;
+    padding-top: 50px;
+}
+
+#home{
+    position: fixed;
+    z-index: -1;
+}

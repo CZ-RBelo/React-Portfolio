@@ -1,0 +1,13 @@
+#contact {
+  background-color: #f8f8f8;
+  max-width: 540px;
+}   
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (max-width: 575.98px) {
+
+    #contact {
+      padding-bottom: 180px;
+    }
+  
+  }

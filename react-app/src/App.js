@@ -1,14 +1,13 @@
 import React from "react";
 
-
 // Import containers
-import MainContainer from "../src/components/MainContainer/MainContainer";
+import Hearder from "../src/components/Header/Header";
 
 
 function App() {
   return (
     <div>      
-      <MainContainer />
+      <Hearder />
     </div>
   );
 }

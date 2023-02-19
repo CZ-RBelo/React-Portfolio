@@ -2,12 +2,12 @@
   /* Skills section */
   #skills {
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-color:#f8f8f8; 
   }
+
   .skillsBar{
     width: 100%; 
   }
@@ -17,6 +17,7 @@
   margin-top: 20px;
   margin-bottom: 5px;
   font-size: 16px;
+  color:#cc1616;
   }
   .skillProgressBar{
   background:#cccccc;
@@ -28,7 +29,7 @@
     height: 5px;
     border-radius: 3px;
     width: 0%;
-    background: #4e4e4e;
+    background: #152238;
   }
   .skillProgressBar div span{
     height: 40px;
@@ -38,14 +39,17 @@
     float: right;
     margin-top: -15px;
     margin-bottom: -20px;
-    color:#4e4e4e;
+    color:#152238;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid  #4e4e4e;  
+    border: 1px solid  #152238;  
   }
   
   /* Software skills animation*/
+  .skillREACT {
+    animation: skillREACT 1s linear forwards;
+  }
   .skillHTML {
     animation: skillHTML 1s linear forwards;
   }
@@ -75,6 +79,11 @@
   
     
   /* Software skills keyframes*/
+  @keyframes skillREACT{
+    100%{
+      width: 75%;
+    }
+  }
   @keyframes skillHTML{
     100%{
       width: 80%;
@@ -116,3 +125,15 @@
       width: 35%;
     }
   }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 575.98px) {
+
+  #skills {
+    padding-bottom: 120px;
+  }
+  #language {
+    padding-top: 50px;
+  }
+
+}
