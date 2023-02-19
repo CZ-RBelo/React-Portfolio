@@ -13,7 +13,6 @@ class ProjectGallery extends Component {
     render() {
 
         return (
-
             <ProjectWrapper>
                 {
                     this.state.projects.map(project => (
@@ -30,7 +29,6 @@ class ProjectGallery extends Component {
                     ))
                 }
             </ProjectWrapper>
-
         );
     }
 

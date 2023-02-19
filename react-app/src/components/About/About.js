@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/images/RBelo-CEO@Conceptzoa.png";
+import image from "../../assets/image/RBelo-CEO@Conceptzoa.png";
 
 import "../About/About.css";
 
@@ -19,7 +19,7 @@ function About() {
             <h5 className="card-title">Hello. I am Rui Belo. Welcome to my web page.</h5>
             <p className="card-text small">As a tech-savvy front-end web developer, I have always had a strong gravitational pull towards technology.</p>
             <p className="card-text small">With extensive experience in MS SQL and Oracle (T-SQL) database code development, now a Front Web Development Certificate at Trilogy Education Services from London, I am gaining much-needed experience in web
-              development fundamentals while improving my skills in<span class="badge bg-primary">Node.js</span>, <span class="badge bg-primary">React.js</span>, <span class="badge bg-primary">HTML5</span>, <span class="badge bg-primary">CCS</span>, <span class="badge bg-primary">Bootstrap</span> and <span class="badge bg-primary">JavaScript</span>, <span class="badge bg-primary">jQuery</span>, and <span class="badge bg-primary">APIs (Server / Web / Third-Party)</span>.
+              development fundamentals while improving my skills in<span class="badge bg-secondary">Node.js</span>, <span class="badge bg-secondary">React.js</span>, <span class="badge bg-secondary">HTML5</span>, <span class="badge bg-secondary">CCS</span>, <span class="badge bg-secondary">Bootstrap</span> and <span class="badge bg-secondary">JavaScript</span>, <span class="badge bg-secondary">jQuery</span>, and <span class="badge bg-secondary">APIs (Server / Web / Third-Party)</span>.
               I am always striving to improve my skills and knowledge base.</p>
             <p className="card-text small fw-bold">I consider communication and collaboration to be fundamental parts of teamwork.</p>
             <p className="card-text small">I intend to create and maintain websites, in addition to developing applications for iOS and Android.</p>

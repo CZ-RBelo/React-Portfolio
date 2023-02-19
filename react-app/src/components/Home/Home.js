@@ -3,13 +3,13 @@ import backgroundVideo from "../../assets/video/Blurry Video Of People Working.m
 
 import "../Home/Home.css";
 
-function About() {
+function Home() {
     return (
-        <div>
+        <div id="video">
             <video autoPlay loop muted id='video'>
                 <source src={backgroundVideo} type='video/mp4' />
             </video>
         </div>
     );
 }
-export default About;
+export default Home;

@@ -13,8 +13,8 @@ function ProjectCard(props) {
                 <div className="card-body">
                     <h5 className="card-title small">Description</h5>
                     <p className="card-text small"> {props.details} </p>
-                    <button href={props.deployed} target="_blank" rel="noreferrer" className="btn btn-primary btn-sm  ms-3">Web page link</button >
-                    <button href={props.github} target="_blank" rel="noreferrer" className="btn btn-primary btn-sm ms-1">Github link</button >
+                    <button href={props.deployed} target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm  ms-3">Web page link</button >
+                    <button href={props.github} target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm ms-1">Github link</button >
                 </div>
             </div>            
         </div>

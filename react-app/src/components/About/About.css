@@ -1,10 +1,15 @@
-
-#imageCard {
-  width: 250px;  
+body {
+  background-color: #f8f8f8;
 }
 
 #about {
   background-color: #f8f8f8;
+  max-width: 1040px;
+  padding-top: 50px;
+}
+
+#imageCard {
+  width: 250px;  
 }
 
 /* Small devices (landscape phones, 576px and up) */

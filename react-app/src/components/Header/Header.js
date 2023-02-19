@@ -9,8 +9,6 @@ import ProjectGallery from "../ProjectGallery/ProjectGallery";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 
-import "../Header/Header.css";
-
 class Header extends Component {
   state = {
     currentPage: "Home"
@@ -24,11 +22,11 @@ class Header extends Component {
     let Page = "";
     // eslint-disable-next-line
     switch (this.state.currentPage) {
-      case "Home": Page = <div className="container-fluid" id="home"><Home /></div>; break;
-      case "About": Page = <div className="container-fluid" id='header'><About /></div>; break;
-      case "Skills": Page = <div className="container-fluid"  id='header'><KeySkills /></div>; break;
-      case "Projects": Page = <div className="container-fluid"  id='header' style={{ paddingBottom: '250px'}}><ProjectGallery /></div>; break;
-      case "Contact": Page = <div className="container-fluid"  id='header'><Contact /></div>; break;
+      case "Home": Page = <div className="container-fluid"><Home /></div>; break;
+      case "About": Page = <div className="container-fluid"><About /></div>; break;
+      case "Skills": Page = <div className="container-fluid"><KeySkills /></div>; break;
+      case "Projects": Page = <div className="container-fluid"><ProjectGallery /></div>; break;
+      case "Contact": Page = <div className="container-fluid"><Contact /></div>; break;
     }
     return (
       <div>

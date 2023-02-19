@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import backgroundImage from "../../assets/image/pexels-lisa-fotios-1545510.jpg";
+
 import "../Contact/Contact.css";
 
 
@@ -53,7 +55,7 @@ class Contact extends Component {
           <input name="location" type="text" className="form-control form-control-sm mb-1" id="exampleFormControlInput3" placeholder="Location" value={this.state.location} onChange={this.handleChange} />
           <textarea name="message" className="form-control form-control-sm mb-2" id="exampleFormControlInput4" placeholder="Message" rows="3" value={this.state.message} onChange={this.handleChange} />
 
-          <input type="submit" className="btn btn-primary btn-sm ms-1" value="Submit" />
+          <input type="submit" className="btn btn-secondary btn-sm ms-1" value="Submit" />
 
         </form>
       </div>      

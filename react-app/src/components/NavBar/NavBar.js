@@ -11,8 +11,8 @@ function NavBar(props) {
     <Navbar sticky="top" id="navBar" expand="lg" variant="dark">
       <Container>        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav  className="me-auto" id="navBar">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+          <Nav id="navBar" className="justify-content-center">
             <Nav.Link id="navBar" onClick={() => props.handlePageChange("Home")}>Home</Nav.Link>
             <Nav.Link id="navBar" onClick={() => props.handlePageChange("About")}>About</Nav.Link>            
             <Nav.Link id="navBar" onClick={() => props.handlePageChange("Skills")}>Key Skills</Nav.Link>
@@ -25,3 +25,5 @@ function NavBar(props) {
   );
 }
 export default NavBar;
+
+// className="me-auto" 
