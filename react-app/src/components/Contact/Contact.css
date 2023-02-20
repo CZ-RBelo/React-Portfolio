@@ -7,12 +7,12 @@ body {
   max-width: 540px;
   padding-top: 50px;
 }
-  
-  /* Small devices (landscape phones, 576px and up) */
-  @media screen and (max-width: 575.98px) {
 
-    #contact {
-      padding-bottom: 180px;
-    }
-  
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 575.98px) {
+
+  #contact {
+    padding-bottom: 180px;
   }
+
+}
