@@ -4,6 +4,7 @@ import React, { Component } from "react";
 
 import "../Contact/Contact.css";
 
+import{ motion} from 'framer-motion';
 
 class Contact extends Component {
   constructor(props) {
@@ -40,7 +41,15 @@ class Contact extends Component {
 
   render() {
     return (
-      <div class="container" id="contact">
+      <motion.div class="container" id="contact"
+      
+      transition={{
+        delay: 0.5,
+        x: { duration: 1 },
+        default: { ease: "linear" }
+      }}
+      
+      >
         <div className="container">
           <h2 className="text-center">Contact</h2>
           <hr className="hr mb-5" />
@@ -59,7 +68,7 @@ class Contact extends Component {
 
           </form>
         </div>
-      </div>
+      </motion.div>
     )
   }
 }

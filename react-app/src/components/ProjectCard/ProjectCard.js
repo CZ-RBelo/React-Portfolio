@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard(props) {
     return (
-        <div class="row">
+        <div className="row">
             <div className="card border-0 rounded-0 mb-5" style={{ backgroundColor: '#f8f8f8' }}>
                 <h5 className="card-title" style={{ backgroundColor: '#152238', padding: '20px', color: '#A8A8A8' }}>Project: {props.name}</h5>
 

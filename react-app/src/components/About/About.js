@@ -3,9 +3,19 @@ import image from "../../assets/image/RBelo-CEO@Conceptzoa.png";
 
 import "../About/About.css";
 
+import{ motion} from 'framer-motion';
+
 function About() {
   return (
-    <div class="container" id="about">
+    <motion.div class="container" id="about"
+    
+    transition={{
+      delay: 0.5,
+      x: { duration: 1 },
+      default: { ease: "linear" }
+    }}
+    
+    >
       <div>
         <h2 className="text-center">About me</h2>
         <hr className="hr mb-5" />
@@ -27,7 +37,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

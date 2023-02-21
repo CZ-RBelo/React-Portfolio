@@ -2,9 +2,19 @@ import React from "react";
 
 import "../KeySkills/KeySkills.css";
 
+import{ motion} from 'framer-motion';
+
 function KeySkills() {
     return (
-        <div class="container" id="skills">
+        <motion.div class="container" id="skills"
+        
+        transition={{
+            delay: 0.5,
+            x: { duration: 1 },
+            default: { ease: "linear" }
+          }}
+        
+        >
             <div className="container">
                 <h2 className="text-center">Key Skills</h2>
                 <hr className="hr mb-5" />
@@ -62,7 +72,7 @@ function KeySkills() {
 
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
