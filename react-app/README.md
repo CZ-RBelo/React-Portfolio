@@ -3,7 +3,6 @@
 ## Table of Contents
 
 * [The repository](#repository)
-* [Project description](#description)
 * [Instructions](#instructions)
 * [Technology used](#built-with)
 * [Walkthrough video](#application-functionality-walkthrough-video)
@@ -32,7 +31,12 @@ npm start
 * JavaScript
 * React.js
 
-## Application functionality walkthrough video
+## Mock-Up
+
+The images below illustrates the web page appearance:
+
+![Desktop web page mock-up](/src/assets/image/RB-react-portfolio-mock-up.png)
+
 
 ## Contributing
 
@@ -68,4 +72,4 @@ If you require any further information, feel free to contact me at:
 
 ---
 ## License 
->[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CZ-RBelo/React-Portfolio/blob/main/LICENSE)
+>![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
