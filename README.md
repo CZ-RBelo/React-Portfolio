@@ -58,7 +58,7 @@ Ways you can contribute:
 ## APP Links
 
 * [Github Repository](https://github.com/CZ-RBelo/React-Portfolio)
-* [Deployed Application](https://cz-rbelo.github.io/React-Portfolio)
+* [Deployed Application](https://neon-mooncake-0d50d0.netlify.app/)
 
 ## Credits
 
