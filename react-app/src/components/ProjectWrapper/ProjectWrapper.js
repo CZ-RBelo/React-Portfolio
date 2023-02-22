@@ -7,12 +7,9 @@ import{ motion} from 'framer-motion';
 function ProjectWrapper(props) {
   return (
     <motion.div className="container" id="projectWrapper"
-
-    transition={{
-      delay: 0.5,
-      x: { duration: 1 },
-      default: { ease: "linear" }
-    }}
+    initial={{ opacity:0 }}
+    animate={{ opacity:1 }}
+    exit= {{ opacity:0 }}
     >
       <h2 className="text-center">Latest Projects</h2>
       <hr className="hr mb-5" />

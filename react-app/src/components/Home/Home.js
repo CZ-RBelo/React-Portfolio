@@ -9,25 +9,26 @@ function Home() {
     return (
         <motion.div id="video"
 
-            transition={{
-                delay: 0.5,
-                x: { duration: 1 },
-                default: { ease: "linear" }
-            }}
+            initial={{ opacity:0 }}
+            animate={{ opacity:1 }}
+            exit= {{ opacity:0 }}
 
         >
-            <div class="container">
+            <div>
 
                 <video autoPlay loop muted id='video'>
                     <source src={backgroundVideo} type='video/mp4' />
                 </video>
 
-                <div id="content">
-                    <h1>Rui Belo</h1>
-                    <h3>Web Developer</h3>
-                    <p >Enthusiastic focused, and motivated Junior Web Developer with many years of experience as a T-SQL Developer and as a Wix and Shopify Web designer.</p>
-                    <p >Is seeking a Web Developer opportunity to contribute to institutions by implementing concepts, knowledge, and methodologies learned, thereby adding value to the organization. </p>
-                    <p >Flexible and adaptable to the demands of changing work environments. Team player and also independently responsible.</p>
+                <div>
+                    <div class="container">
+                        <div class="jumbotron" id="heroJumbotron">
+                            <h5 id="title">Rui Belo</h5>
+                            <p id="subTitle">Web developer</p>
+                            <hr id="hr" />
+                            <p id="paragraph">Welcome to my portfolio, where design meets functionality to create memorable web experiences.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>

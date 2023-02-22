@@ -8,11 +8,9 @@ function KeySkills() {
     return (
         <motion.div class="container" id="skills"
         
-        transition={{
-            delay: 0.5,
-            x: { duration: 1 },
-            default: { ease: "linear" }
-          }}
+        initial={{ opacity:0 }}
+        animate={{ opacity:1 }}
+        exit= {{ opacity:0 }}
         
         >
             <div className="container">
