@@ -32,6 +32,7 @@ function About() {
             <p className="card-text small fw-bold">I consider communication and collaboration to be fundamental parts of teamwork.</p>
             <p className="card-text small">I intend to create and maintain websites, in addition to developing applications for iOS and Android.</p>
             <p className="cardt-ext small">I seek to bring my attention to detail and technical skills to a business to grow and become a valuable asset.</p>
+            <a href="#" target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm  ms-3">Download my CV</a >
           </div>
         </div>
       </div>
