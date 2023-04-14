@@ -6,6 +6,7 @@ body {
   background-color: #f8f8f8;
   max-width: 1040px;
   padding-top: 50px;
+  padding-bottom: 300px;
 }
 
 #imageCard {
@@ -16,7 +17,7 @@ body {
 @media screen and (max-width: 575.98px) {
 
   #about {
-    padding-bottom: 150px;
+    padding-bottom: 170px;
   }
 
   #imageCard {
